@@ -1,0 +1,38 @@
+{
+  "name": "travisci-node-update",
+  "version": "1.0.0",
+  "description": "Updates target Node version in Travis CI config to latest minor version",
+  "bin": {
+    "travisci-node-update": "./bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudio Procida <claudio.procida@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiopro/travisci-node-update.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "travis",
+    "travisci",
+    "ci",
+    "yaml",
+    "updater",
+    "utility",
+    "tool",
+    "maintenance"
+  ],
+  "bugs": {
+    "url": "https://github.com/claudiopro/travisci-node-update/issues"
+  },
+  "homepage": "https://github.com/claudiopro/travisci-node-update#readme"
+}

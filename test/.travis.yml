@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '7.21'
+  - '6.91'
+  - '5.13'
+  - '4.609999999999999'
+script: npm run test

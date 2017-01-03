@@ -12,7 +12,9 @@
   "author": "Claudio Procida <claudio.procida@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "^3.7.0"
+    "js-yaml": "^3.7.0",
+    "request": "^2.79.0",
+    "semver": "^5.3.0"
   },
   "devDependencies": {},
   "repository": {

@@ -34,7 +34,7 @@ function updater(dir, callback) {
         case MINOR:
           return [semver.major(matching), semver.minor(matching)].join('.');
         case MAJOR:
-          return semver.major(matching);
+          return String(semver.major(matching));
       }
     }
 
